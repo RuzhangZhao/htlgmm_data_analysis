@@ -15,18 +15,25 @@ In the folder `simulation`, we show the simulation codes under the settings with
 In the other folder `real_data_application`, we show three parts including 
 
 1. The definition of prevalent, incident cases: 
-   [incident_case_definition_cancer.R](real_data_application/incident_case_definition_cancer.R)  
+
+   [incident_case_definition_cancer.R](real_data_application/incident_case_definition_cancer.R) 
+
    [incident_case_definition.R](real_data_application/incident_case_definition.R) 
 
 2. The extraction of risk factors: 
 
    [Postmenopausal_Breast_Cancer_risk_factor_analysis.R](real_data_application/Postmenopausal_Breast_Cancer_risk_factor_analysis.R)  
+
    [Colorectal_Cancer_risk_factor_analysis.R](real_data_application/Colorectal_Cancer_risk_factor_analysis.R)  
+
    [CVD_risk_factor_analysis.R](real_data_application/CVD_risk_factor_analysis.R) 
+
    [Stroke_risk_factor_analysis.R](real_data_application/Stroke_risk_factor_analysis.R) 
+
    [Asthma_risk_factor_analysis.R](real_data_application/Asthma_risk_factor_analysis.R)  
 
 3. The prediction analysis jointly using proteomics data and risk factors: 
-    [UKB_protein_data_analysis.R](real_data_application/UKB_protein_data_analysis.R) 
+
+   [UKB_protein_data_analysis.R](real_data_application/UKB_protein_data_analysis.R) 
 
 The prediction performance can demonstrate the superiority of HTL-GMM algorithm under the heterogeneous transfer learning setting. 
