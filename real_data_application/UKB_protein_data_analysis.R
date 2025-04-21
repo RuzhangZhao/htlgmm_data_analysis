@@ -124,7 +124,7 @@ for(fold in 1:nfold){
                                               initial_with_type="lasso",
                                               beta_initial = as.vector(coef(res_lasso,s="lambda.min")),
                                               inference = F,
-                                              study_info = sum_mul,family = "binomial",
+                                              ext_study_info = sum_mul,family = "binomial",
                                               use_sparseC = F,
                                               tune_weight = T,
                                               tune_weight_method="mshrink")
