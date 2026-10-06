@@ -6,11 +6,23 @@ In the folder `simulation`, we show the simulation codes under the settings with
 
 [simulate-logistic-pW=150.R](simulation/simulate-logistic-pW=150.R) 
 
- [simulate-logistic-pW=1500.R](simulation/simulate-logistic-pW=1500.R)  
+[simulate-logistic-pW=1500.R](simulation/simulate-logistic-pW=1500.R)  
 
 [simulate-linear-pW=150.R](simulation/simulate-linear-pW=150.R)  
 
 [simulate-linear-pW=1500.R](simulation/simulate-linear-pW=1500.R)  
+
+In the same folder, we test the negative transfer with changing the distribution of main study. 
+
+ [simulate-linear-pW=150_test_negative_transfer.R](simulation/simulate-linear-pW=150_test_negative_transfer.R) 
+
+ [simulate-logistic-pW=150_test_negative_transfer.R](simulation/simulate-logistic-pW=150_test_negative_transfer.R) 
+
+Also, the CML comparisons are included. 
+
+[CML.R](simulation/CML.R) 
+
+ [cml_vs_htlgmm.R](simulation/cml_vs_htlgmm.R) 
 
 In the other folder `real_data_application`, we show three parts including 
 
